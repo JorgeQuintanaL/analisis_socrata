@@ -12,11 +12,6 @@ import plotly.graph_objs as go
 from db import MariaDB_Connect
 from sqlalchemy.sql import text
 
-db_user = "admin"
-db_password = "PruebA01*"
-db_host = "mariadb.cmxl0deicysi.us-east-1.rds.amazonaws.com"
-db_database = "MDA"
-
 db_connection = MariaDB_Connect(user=db_user,
                                 password=db_password,
                                 host=db_host,
